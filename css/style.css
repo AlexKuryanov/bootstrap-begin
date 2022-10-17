@@ -1,0 +1,73 @@
+:root {
+  --turquoise: #05b1b1;
+  --violet: #52339a;
+}
+
+header,
+footer,
+section {
+  padding: 100px 0;
+}
+
+header {
+  padding: 200px 0;
+}
+
+header,
+footer {
+  background: url(../img/pattern.png), var(--turquoise);
+  background: url(../img/pattern.png),
+    -moz-linear-gradient(left, var(--turquoise) 0%, var(--violet) 100%);
+  background: url(../img/pattern.png),
+    -webkit-linear-gradient(left, var(--turquoise) 0%, var(--indigo) 100%);
+  background: url(../img/pattern.png),
+    linear-gradient(to right, var(--turquoise) 0%, var(--violet) 100%);
+  filter: url(../img/pattern.png),
+    progid:
+      DXImageTransform.Microsoft.gradient(
+        startColorstr=var(--turquoise),
+        endColorstr=var(--violet),
+        GradientType=1
+      );
+  background-size: contain;
+}
+
+.itd_play {
+  background-color: var(--turquoise);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 30px auto;
+  transition: all 0.2s ease;
+}
+
+.itd_play:hover {
+  background-color: var(--violet);
+}
+
+.itd_triangle {
+  width: 0;
+  height: 0;
+  margin-right: -3px;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent var(--bs-white);
+}
+
+.btn-itd {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: var(--bs-white);
+  background-color: var(--violet);
+}
+
+.btn-itd:hover {
+  color: var(--bs-white);
+  background-color: var(--turquoise);
+}
