@@ -19,7 +19,7 @@ footer {
   background: url(../img/pattern.png),
     -moz-linear-gradient(left, var(--turquoise) 0%, var(--violet) 100%);
   background: url(../img/pattern.png),
-    -webkit-linear-gradient(left, var(--turquoise) 0%, var(--indigo) 100%);
+    -webkit-linear-gradient(left, var(--turquoise) 0%, var(--violet) 100%);
   background: url(../img/pattern.png),
     linear-gradient(to right, var(--turquoise) 0%, var(--violet) 100%);
   filter: url(../img/pattern.png),
@@ -88,4 +88,47 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.about {
+  background-color: #eee;
+}
+
+.about i {
+  font-size: 25px;
+  color: var(--violet);
+}
+
+.itd_circle {
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid var(--violet);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: var(--turquoise);
+  margin: 15px auto 30px;
+}
+
+.turquoise {
+  color: var(--turquoise);
+}
+
+.violet {
+  color: var(--violet);
+}
+
+.bg-turquoise {
+  background-color: var(--turquoise);
+}
+
+.bg-violet {
+  background-color: var(--violet);
 }
