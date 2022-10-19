@@ -148,6 +148,15 @@ footer {
   border: 3px solid var(--turquoise);
 }
 
+/* Author section */
+.author {
+  padding-bottom: 0;
+}
+
+.img-itd {
+  max-width: 260px;
+}
+
 /* Colors */
 .turquoise {
   color: var(--turquoise);
