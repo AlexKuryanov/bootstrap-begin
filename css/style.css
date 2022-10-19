@@ -118,7 +118,6 @@ footer {
 .line {
   width: 100px;
   height: 3px;
-  background-color: var(--turquoise);
   margin: 15px auto 30px;
 }
 
