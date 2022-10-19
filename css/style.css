@@ -95,7 +95,9 @@ footer {
 
 /* About section */
 .about,
-.schedule {
+.schedule,
+.author,
+.buy {
   background-color: #eee;
 }
 
